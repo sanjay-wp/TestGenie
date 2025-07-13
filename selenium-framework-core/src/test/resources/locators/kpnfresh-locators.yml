@@ -1,0 +1,82 @@
+# KPN Fresh website locators
+
+# Header elements
+header:
+  logo:
+    type: css
+    value: ".logo img"
+  search:
+    type: css
+    value: "#search"
+  cart:
+    type: css
+    value: ".minicart-wrapper"
+  menu:
+    type: css
+    value: ".navigation"
+
+# Navigation menu
+nav:
+  categories:
+    type: css
+    value: ".nav-sections"
+  category_link:
+    type: xpath
+    value: "//a[contains(text(), '%s')]"
+
+# Product elements
+product:
+  grid:
+    type: css
+    value: ".products-grid"
+  item:
+    type: css
+    value: ".product-item"
+  name:
+    type: css
+    value: ".product-item-name"
+  price:
+    type: css
+    value: ".price"
+  add_to_cart:
+    type: css
+    value: ".action.tocart"
+
+# Cart elements
+cart:
+  mini_cart:
+    type: css
+    value: ".minicart-wrapper"
+  counter:
+    type: css
+    value: ".counter.qty"
+  checkout:
+    type: css
+    value: "#top-cart-btn-checkout"
+
+# Footer elements
+footer:
+  newsletter:
+    type: css
+    value: "#newsletter"
+  subscribe:
+    type: css
+    value: "#newsletter-validate-detail button"
+  social_links:
+    type: css
+    value: ".social-links"
+
+# Authentication
+auth:
+  login_link:
+    type: css
+    value: ".authorization-link a"
+  email:
+    type: css
+    value: "#email"
+  password:
+    type: css
+    value: "#pass"
+  submit:
+    type: css
+    value: "#send2" 

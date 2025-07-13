@@ -1,0 +1,151 @@
+# Common locators used across the application
+
+# Common form elements
+form:
+  input:
+    text:
+      type: css
+      value: "input[type='text']"
+    password:
+      type: css
+      value: "input[type='password']"
+    email:
+      type: css
+      value: "input[type='email']"
+    submit:
+      type: css
+      value: "button[type='submit']"
+  dropdown:
+    base:
+      type: css
+      value: "select"
+    option:
+      type: xpath
+      value: "//option[text()='%s']"
+
+# Common buttons
+button:
+  primary:
+    type: css
+    value: ".btn-primary"
+  secondary:
+    type: css
+    value: ".btn-secondary"
+  close:
+    type: css
+    value: ".close-button, .btn-close"
+  save:
+    type: xpath
+    value: "//button[contains(text(), 'Save')]"
+  cancel:
+    type: xpath
+    value: "//button[contains(text(), 'Cancel')]"
+
+# Common navigation elements
+nav:
+  menu:
+    type: css
+    value: ".main-menu"
+  submenu:
+    type: css
+    value: ".sub-menu"
+  link:
+    type: xpath
+    value: "//a[contains(text(), '%s')]"
+  breadcrumb:
+    type: css
+    value: ".breadcrumb"
+
+# Common modal elements
+modal:
+  container:
+    type: css
+    value: ".modal"
+  title:
+    type: css
+    value: ".modal-title"
+  body:
+    type: css
+    value: ".modal-body"
+  close:
+    type: css
+    value: ".modal .close"
+
+# Common table elements
+table:
+  base:
+    type: css
+    value: "table"
+  header:
+    type: css
+    value: "th"
+  row:
+    type: css
+    value: "tr"
+  cell:
+    type: css
+    value: "td"
+  pagination:
+    container:
+      type: css
+      value: ".pagination"
+    next:
+      type: css
+      value: ".pagination .next"
+    previous:
+      type: css
+      value: ".pagination .previous"
+
+# Common alert/message elements
+alert:
+  success:
+    type: css
+    value: ".alert-success"
+  error:
+    type: css
+    value: ".alert-error"
+  warning:
+    type: css
+    value: ".alert-warning"
+  info:
+    type: css
+    value: ".alert-info"
+
+# Common loading indicators
+loading:
+  spinner:
+    type: css
+    value: ".spinner"
+  overlay:
+    type: css
+    value: ".loading-overlay"
+  progress:
+    type: css
+    value: ".progress-bar"
+
+# Common validation messages
+validation:
+  error:
+    type: css
+    value: ".error-message"
+  help:
+    type: css
+    value: ".help-text"
+  required:
+    type: css
+    value: ".required-field"
+
+# Common search elements
+search:
+  input:
+    type: css
+    value: "input[type='search']"
+  button:
+    type: css
+    value: ".search-button"
+  results:
+    type: css
+    value: ".search-results"
+  no_results:
+    type: css
+    value: ".no-results" 

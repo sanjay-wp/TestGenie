@@ -1,0 +1,20 @@
+17:36:50.889 [main] INFO  com.framework.sample.kpnfresh.config.CucumberHooks - Starting scenario: Search for a product
+17:36:54.147 [main] INFO  com.framework.sample.kpnfresh.config.CucumberHooks - Finished scenario: Search for a product. Status: FAILED
+17:36:54.152 [main] INFO  com.framework.sample.kpnfresh.config.CucumberHooks - Starting scenario: Navigate through categories
+17:36:54.667 [main] INFO  com.framework.sample.kpnfresh.config.CucumberHooks - Finished scenario: Navigate through categories. Status: FAILED
+17:36:54.672 [main] INFO  com.framework.sample.kpnfresh.config.CucumberHooks - Starting scenario: Subscribe to newsletter
+17:36:55.194 [main] INFO  com.framework.sample.kpnfresh.config.CucumberHooks - Finished scenario: Subscribe to newsletter. Status: FAILED
+17:36:55.199 [main] INFO  com.framework.sample.kpnfresh.config.CucumberHooks - Starting scenario: Check shopping cart
+17:36:55.680 [main] INFO  com.framework.sample.kpnfresh.config.CucumberHooks - Finished scenario: Check shopping cart. Status: FAILED
+17:36:55.683 [main] INFO  com.framework.sample.kpnfresh.config.CucumberHooks - Starting scenario: Search for different products
+17:36:56.134 [main] INFO  com.framework.sample.kpnfresh.config.CucumberHooks - Finished scenario: Search for different products. Status: FAILED
+17:36:56.137 [main] INFO  com.framework.sample.kpnfresh.config.CucumberHooks - Starting scenario: Search for different products
+17:36:56.575 [main] INFO  com.framework.sample.kpnfresh.config.CucumberHooks - Finished scenario: Search for different products. Status: FAILED
+17:36:56.578 [main] INFO  com.framework.sample.kpnfresh.config.CucumberHooks - Starting scenario: Search for different products
+17:36:57.046 [main] INFO  com.framework.sample.kpnfresh.config.CucumberHooks - Finished scenario: Search for different products. Status: FAILED
+17:36:57.049 [main] INFO  com.framework.sample.kpnfresh.config.CucumberHooks - Starting scenario: Search for different products
+17:36:57.706 [main] INFO  com.framework.sample.kpnfresh.config.CucumberHooks - Finished scenario: Search for different products. Status: FAILED
+17:37:27.943 [main] INFO  com.framework.sample.kpnfresh.config.CucumberHooks - Starting scenario: Search for a product
+17:37:29.051 [main] INFO  com.framework.sample.kpnfresh.config.CucumberHooks - Finished scenario: Search for a product. Status: FAILED
+17:42:44.119 [main] INFO  com.framework.sample.kpnfresh.config.CucumberHooks - Starting scenario: Search for a product
+17:42:45.269 [main] INFO  com.framework.sample.kpnfresh.config.CucumberHooks - Finished scenario: Search for a product. Status: FAILED

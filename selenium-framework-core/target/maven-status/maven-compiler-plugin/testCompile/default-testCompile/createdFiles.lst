@@ -1,0 +1,4 @@
+com\framework\sample\kpnfresh\tests\TestRunner.class
+com\framework\sample\kpnfresh\pages\HomePage.class
+com\framework\sample\kpnfresh\stepdefs\HomePageSteps.class
+com\framework\sample\kpnfresh\config\CucumberHooks.class

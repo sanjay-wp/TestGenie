@@ -1,0 +1,44 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 15.03 s <<< FAILURE! -- in TestSuite
+com.framework.sample.kpnfresh.tests.TestRunner.runScenario["Search for a topic", "Google Search Functionality"](1) -- Time elapsed: 4.395 s <<< FAILURE!
+java.lang.IllegalArgumentException: Locator not found: header.search
+	at com.framework.pages.BasePage.lambda$getLocator$1(BasePage.java:52)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at com.framework.pages.BasePage.getLocator(BasePage.java:52)
+	at com.framework.pages.BasePage.getElement(BasePage.java:73)
+	at com.framework.sample.kpnfresh.pages.HomePage.search(HomePage.java:13)
+	at com.framework.sample.kpnfresh.stepdefs.HomePageSteps.iSearchFor(HomePageSteps.java:25)
+	at ✽.I search for "selenium automation"(file:///D:/TestGenie/selenium-framework-core/src/test/resources/features/kpnfresh/homepage.feature:11)
+
+com.framework.sample.kpnfresh.tests.TestRunner.runScenario["Search for different topics", "Google Search Functionality"](2) -- Time elapsed: 2.744 s <<< FAILURE!
+java.lang.IllegalArgumentException: Locator not found: header.search
+	at com.framework.pages.BasePage.lambda$getLocator$1(BasePage.java:52)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at com.framework.pages.BasePage.getLocator(BasePage.java:52)
+	at com.framework.pages.BasePage.getElement(BasePage.java:73)
+	at com.framework.sample.kpnfresh.pages.HomePage.search(HomePage.java:13)
+	at com.framework.sample.kpnfresh.stepdefs.HomePageSteps.iSearchFor(HomePageSteps.java:25)
+	at ✽.I search for "java testing"(file:///D:/TestGenie/selenium-framework-core/src/test/resources/features/kpnfresh/homepage.feature:17)
+
+com.framework.sample.kpnfresh.tests.TestRunner.runScenario["Search for different topics", "Google Search Functionality"](3) -- Time elapsed: 2.398 s <<< FAILURE!
+java.lang.IllegalArgumentException: Locator not found: header.search
+	at com.framework.pages.BasePage.lambda$getLocator$1(BasePage.java:52)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at com.framework.pages.BasePage.getLocator(BasePage.java:52)
+	at com.framework.pages.BasePage.getElement(BasePage.java:73)
+	at com.framework.sample.kpnfresh.pages.HomePage.search(HomePage.java:13)
+	at com.framework.sample.kpnfresh.stepdefs.HomePageSteps.iSearchFor(HomePageSteps.java:25)
+	at ✽.I search for "web automation"(file:///D:/TestGenie/selenium-framework-core/src/test/resources/features/kpnfresh/homepage.feature:17)
+
+com.framework.sample.kpnfresh.tests.TestRunner.runScenario["Search for different topics", "Google Search Functionality"](4) -- Time elapsed: 2.971 s <<< FAILURE!
+java.lang.IllegalArgumentException: Locator not found: header.search
+	at com.framework.pages.BasePage.lambda$getLocator$1(BasePage.java:52)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at com.framework.pages.BasePage.getLocator(BasePage.java:52)
+	at com.framework.pages.BasePage.getElement(BasePage.java:73)
+	at com.framework.sample.kpnfresh.pages.HomePage.search(HomePage.java:13)
+	at com.framework.sample.kpnfresh.stepdefs.HomePageSteps.iSearchFor(HomePageSteps.java:25)
+	at ✽.I search for "cucumber bdd"(file:///D:/TestGenie/selenium-framework-core/src/test/resources/features/kpnfresh/homepage.feature:17)
+

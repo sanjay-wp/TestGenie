@@ -1,0 +1,74 @@
+# Default framework configuration
+
+# Browser configuration
+browser:
+  default: chrome
+  timeout: 30
+  headless: false
+  options:
+    chrome:
+      arguments:
+        - "--start-maximized"
+        - "--disable-notifications"
+      preferences:
+        download.default_directory: D:\\TestGenie\\selenium-framework-core/downloads
+    firefox:
+      arguments:
+        - "--width=1920"
+        - "--height=1080"
+    edge:
+      arguments:
+        - "--start-maximized"
+        - "--inprivate"
+
+# Framework settings
+framework:
+  retry:
+    max_attempts: 3
+    interval_seconds: 1
+  screenshot:
+    on_failure: true
+    directory: D:\\TestGenie\\selenium-framework-core/test-output/screenshots
+  reporting:
+    generate_html: true
+    generate_pdf: false
+    directory: D:\\TestGenie\\selenium-framework-core/test-output/reports
+
+# Default timeouts (in seconds)
+timeouts:
+  page_load: 30
+  script: 30
+  element:
+    visibility: 10
+    clickable: 10
+    presence: 5
+
+# Default test data
+test_data:
+  environment: qa
+  base_url: https://example.com
+  api:
+    base_url: https://api.example.com
+    timeout: 30
+    retry_count: 3
+
+# Logging configuration
+logging:
+  level: INFO
+  file:
+    enabled: true
+    path: D:\\TestGenie\\selenium-framework-core/logs/test.log
+  console:
+    enabled: true
+    pattern: "%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n"
+
+# Default locator configuration
+locators:
+  strategy: yaml
+  files:
+    - common-locators.yml
+    - page-locators.yml
+  cache:
+    enabled: true
+    max_size: 1000
+    ttl_minutes: 60 

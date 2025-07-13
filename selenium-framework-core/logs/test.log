@@ -1,0 +1,395 @@
+20:17:57.085 [TestNG-tests-1] INFO  com.framework.listeners.TestListener - Starting test suite: Edge Tests
+20:17:57.089 [TestNG-tests-1] INFO  com.framework.listeners.CucumberListener - Starting test suite: Edge Tests
+20:17:57.762 [TestNG-tests-1] WARN  org.testng.internal.Utils - The test method 'io.cucumber.testng.AbstractTestNGCucumberTests.runScenario' will be skipped since its data provider 'scenarios' returned an empty array or iterator. 
+20:17:57.819 [TestNG-tests-1] INFO  com.framework.listeners.CucumberListener - Finished test suite: Edge Tests
+20:17:57.822 [TestNG-tests-1] INFO  com.framework.listeners.TestListener - Finished test suite: Edge Tests
+20:17:57.822 [TestNG-tests-1] INFO  com.framework.listeners.TestListener - Passed tests: 0
+20:17:57.822 [TestNG-tests-1] INFO  com.framework.listeners.TestListener - Failed tests: 0
+20:17:57.822 [TestNG-tests-1] INFO  com.framework.listeners.TestListener - Skipped tests: 0
+20:18:49.909 [TestNG-tests-1] INFO  com.framework.listeners.TestListener - Starting test suite: Edge Tests
+20:18:49.913 [TestNG-tests-1] INFO  com.framework.listeners.CucumberListener - Starting test suite: Edge Tests
+20:18:50.609 [TestNG-tests-1] INFO  com.framework.listeners.TestListener - Starting test: runScenario
+20:18:50.609 [TestNG-tests-1] INFO  com.framework.listeners.CucumberListener - Starting test: runScenario
+20:18:50.717 [TestNG-tests-1] INFO  com.framework.sample.kpnfresh.config.CucumberHooks - Starting scenario: Search for a product
+20:18:51.656 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 138.0.3351.83 (resolved driver for Edge 138)
+20:18:51.690 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Reading https://msedgedriver.azureedge.net/?restype=container&comp=list to seek msedgedriver
+20:18:52.525 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.online.Downloader - Downloading https://msedgewebdriverstorage.blob.core.windows.net/edgewebdriver/138.0.3351.83/edgedriver_win64.zip
+20:19:15.760 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file edgedriver_win64.zip
+20:19:16.102 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\sanja\.cache\selenium\msedgedriver\win64\138.0.3351.83\msedgedriver.exe
+20:19:19.042 [TestNG-tests-1] INFO  com.framework.sample.kpnfresh.stepdefs.HomePageSteps - Navigating to KPN Fresh home page
+20:19:19.488 [TestNG-tests-1] INFO  com.framework.sample.kpnfresh.config.CucumberHooks - Finished scenario: Search for a product. Status: FAILED
+20:19:19.878 [TestNG-tests-1] ERROR com.framework.listeners.CucumberListener - Test failed: runScenario
+20:19:19.878 [TestNG-tests-1] ERROR com.framework.listeners.CucumberListener - Failure reason: 
+java.lang.IllegalArgumentException: Locator not found: header.logo
+	at com.framework.pages.BasePage.lambda$getLocator$1(BasePage.java:52) ~[classes/:?]
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at com.framework.pages.BasePage.getLocator(BasePage.java:52) ~[classes/:?]
+	at com.framework.pages.BasePage.getElement(BasePage.java:73) ~[classes/:?]
+	at com.framework.sample.kpnfresh.pages.HomePage.<init>(HomePage.java:16) ~[test-classes/:?]
+	at com.framework.sample.kpnfresh.stepdefs.HomePageSteps.iAmOnTheHomePage(HomePageSteps.java:22) ~[test-classes/:?]
+	at ?.I am on the KPN Fresh home page(file:///D:/TestGenie/selenium-framework-core/src/test/resources/features/kpnfresh/homepage.feature:7) ~[?:?]
+20:19:19.891 [TestNG-tests-1] ERROR com.framework.listeners.TestListener - Test failed: runScenario
+20:19:19.891 [TestNG-tests-1] ERROR com.framework.listeners.TestListener - Failure reason: 
+java.lang.IllegalArgumentException: Locator not found: header.logo
+	at com.framework.pages.BasePage.lambda$getLocator$1(BasePage.java:52) ~[classes/:?]
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at com.framework.pages.BasePage.getLocator(BasePage.java:52) ~[classes/:?]
+	at com.framework.pages.BasePage.getElement(BasePage.java:73) ~[classes/:?]
+	at com.framework.sample.kpnfresh.pages.HomePage.<init>(HomePage.java:16) ~[test-classes/:?]
+	at com.framework.sample.kpnfresh.stepdefs.HomePageSteps.iAmOnTheHomePage(HomePageSteps.java:22) ~[test-classes/:?]
+	at ?.I am on the KPN Fresh home page(file:///D:/TestGenie/selenium-framework-core/src/test/resources/features/kpnfresh/homepage.feature:7) ~[?:?]
+20:19:19.998 [TestNG-tests-1] INFO  com.framework.listeners.CucumberListener - Finished test suite: Edge Tests
+20:19:20.000 [TestNG-tests-1] INFO  com.framework.listeners.TestListener - Finished test suite: Edge Tests
+20:19:20.000 [TestNG-tests-1] INFO  com.framework.listeners.TestListener - Passed tests: 0
+20:19:20.000 [TestNG-tests-1] INFO  com.framework.listeners.TestListener - Failed tests: 1
+20:19:20.001 [TestNG-tests-1] INFO  com.framework.listeners.TestListener - Skipped tests: 0
+20:19:56.282 [main] INFO  com.framework.sample.kpnfresh.config.CucumberHooks - Starting scenario: Search for a product
+20:19:56.977 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 138.0.3351.83 (resolved driver for Edge 138)
+20:19:57.027 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\sanja\.cache\selenium\msedgedriver\win64\138.0.3351.83\msedgedriver.exe
+20:19:59.098 [main] INFO  com.framework.sample.kpnfresh.stepdefs.HomePageSteps - Navigating to KPN Fresh home page
+20:19:59.472 [main] INFO  com.framework.sample.kpnfresh.config.CucumberHooks - Finished scenario: Search for a product. Status: FAILED
+21:00:08.586 [TestNG-tests-1] INFO  com.framework.listeners.TestListener - Starting test suite: Edge Tests
+21:00:08.586 [TestNG-tests-1] INFO  com.framework.listeners.CucumberListener - Starting test suite: Edge Tests
+21:00:09.492 [TestNG-tests-1] INFO  com.framework.listeners.TestListener - Starting test: runScenario
+21:00:09.492 [TestNG-tests-1] INFO  com.framework.listeners.CucumberListener - Starting test: runScenario
+21:00:09.597 [TestNG-tests-1] INFO  com.framework.sample.kpnfresh.config.CucumberHooks - Starting scenario: Search for a topic
+21:00:10.286 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 138.0.3351.83 (resolved driver for Edge 138)
+21:00:10.327 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\sanja\.cache\selenium\msedgedriver\win64\138.0.3351.83\msedgedriver.exe
+21:00:13.881 [TestNG-tests-1] INFO  com.framework.sample.kpnfresh.stepdefs.HomePageSteps - Navigated to Google homepage
+21:00:13.911 [TestNG-tests-1] INFO  com.framework.sample.kpnfresh.config.CucumberHooks - Finished scenario: Search for a topic. Status: FAILED
+21:00:14.313 [TestNG-tests-1] ERROR com.framework.listeners.CucumberListener - Test failed: runScenario
+21:00:14.313 [TestNG-tests-1] ERROR com.framework.listeners.CucumberListener - Failure reason: 
+java.lang.IllegalArgumentException: Locator not found: header.search
+	at com.framework.pages.BasePage.lambda$getLocator$1(BasePage.java:52) ~[classes/:?]
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at com.framework.pages.BasePage.getLocator(BasePage.java:52) ~[classes/:?]
+	at com.framework.pages.BasePage.getElement(BasePage.java:73) ~[classes/:?]
+	at com.framework.sample.kpnfresh.pages.HomePage.search(HomePage.java:13) ~[test-classes/:?]
+	at com.framework.sample.kpnfresh.stepdefs.HomePageSteps.iSearchFor(HomePageSteps.java:25) ~[test-classes/:?]
+	at ?.I search for "selenium automation"(file:///D:/TestGenie/selenium-framework-core/src/test/resources/features/kpnfresh/homepage.feature:11) ~[?:?]
+21:00:14.323 [TestNG-tests-1] ERROR com.framework.listeners.TestListener - Test failed: runScenario
+21:00:14.323 [TestNG-tests-1] ERROR com.framework.listeners.TestListener - Failure reason: 
+java.lang.IllegalArgumentException: Locator not found: header.search
+	at com.framework.pages.BasePage.lambda$getLocator$1(BasePage.java:52) ~[classes/:?]
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at com.framework.pages.BasePage.getLocator(BasePage.java:52) ~[classes/:?]
+	at com.framework.pages.BasePage.getElement(BasePage.java:73) ~[classes/:?]
+	at com.framework.sample.kpnfresh.pages.HomePage.search(HomePage.java:13) ~[test-classes/:?]
+	at com.framework.sample.kpnfresh.stepdefs.HomePageSteps.iSearchFor(HomePageSteps.java:25) ~[test-classes/:?]
+	at ?.I search for "selenium automation"(file:///D:/TestGenie/selenium-framework-core/src/test/resources/features/kpnfresh/homepage.feature:11) ~[?:?]
+21:00:14.327 [TestNG-tests-1] INFO  com.framework.listeners.TestListener - Starting test: runScenario
+21:00:14.327 [TestNG-tests-1] INFO  com.framework.listeners.CucumberListener - Starting test: runScenario
+21:00:14.339 [TestNG-tests-1] INFO  com.framework.sample.kpnfresh.config.CucumberHooks - Starting scenario: Search for different topics
+21:00:14.366 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 138.0.3351.83 (resolved driver for Edge 138)
+21:00:14.387 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\sanja\.cache\selenium\msedgedriver\win64\138.0.3351.83\msedgedriver.exe
+21:00:18.304 [TestNG-tests-1] INFO  com.framework.sample.kpnfresh.stepdefs.HomePageSteps - Navigated to Google homepage
+21:00:18.312 [TestNG-tests-1] INFO  com.framework.sample.kpnfresh.config.CucumberHooks - Finished scenario: Search for different topics. Status: FAILED
+21:00:18.867 [TestNG-tests-1] ERROR com.framework.listeners.CucumberListener - Test failed: runScenario
+21:00:18.867 [TestNG-tests-1] ERROR com.framework.listeners.CucumberListener - Failure reason: 
+java.lang.IllegalArgumentException: Locator not found: header.search
+	at com.framework.pages.BasePage.lambda$getLocator$1(BasePage.java:52) ~[classes/:?]
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at com.framework.pages.BasePage.getLocator(BasePage.java:52) ~[classes/:?]
+	at com.framework.pages.BasePage.getElement(BasePage.java:73) ~[classes/:?]
+	at com.framework.sample.kpnfresh.pages.HomePage.search(HomePage.java:13) ~[test-classes/:?]
+	at com.framework.sample.kpnfresh.stepdefs.HomePageSteps.iSearchFor(HomePageSteps.java:25) ~[test-classes/:?]
+	at ?.I search for "java testing"(file:///D:/TestGenie/selenium-framework-core/src/test/resources/features/kpnfresh/homepage.feature:17) ~[?:?]
+21:00:18.869 [TestNG-tests-1] ERROR com.framework.listeners.TestListener - Test failed: runScenario
+21:00:18.869 [TestNG-tests-1] ERROR com.framework.listeners.TestListener - Failure reason: 
+java.lang.IllegalArgumentException: Locator not found: header.search
+	at com.framework.pages.BasePage.lambda$getLocator$1(BasePage.java:52) ~[classes/:?]
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at com.framework.pages.BasePage.getLocator(BasePage.java:52) ~[classes/:?]
+	at com.framework.pages.BasePage.getElement(BasePage.java:73) ~[classes/:?]
+	at com.framework.sample.kpnfresh.pages.HomePage.search(HomePage.java:13) ~[test-classes/:?]
+	at com.framework.sample.kpnfresh.stepdefs.HomePageSteps.iSearchFor(HomePageSteps.java:25) ~[test-classes/:?]
+	at ?.I search for "java testing"(file:///D:/TestGenie/selenium-framework-core/src/test/resources/features/kpnfresh/homepage.feature:17) ~[?:?]
+21:00:18.874 [TestNG-tests-1] INFO  com.framework.listeners.TestListener - Starting test: runScenario
+21:00:18.875 [TestNG-tests-1] INFO  com.framework.listeners.CucumberListener - Starting test: runScenario
+21:00:18.881 [TestNG-tests-1] INFO  com.framework.sample.kpnfresh.config.CucumberHooks - Starting scenario: Search for different topics
+21:00:18.898 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 138.0.3351.83 (resolved driver for Edge 138)
+21:00:18.908 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\sanja\.cache\selenium\msedgedriver\win64\138.0.3351.83\msedgedriver.exe
+21:00:21.223 [TestNG-tests-1] INFO  com.framework.sample.kpnfresh.stepdefs.HomePageSteps - Navigated to Google homepage
+21:00:21.234 [TestNG-tests-1] INFO  com.framework.sample.kpnfresh.config.CucumberHooks - Finished scenario: Search for different topics. Status: FAILED
+21:00:21.694 [TestNG-tests-1] ERROR com.framework.listeners.CucumberListener - Test failed: runScenario
+21:00:21.695 [TestNG-tests-1] ERROR com.framework.listeners.CucumberListener - Failure reason: 
+java.lang.IllegalArgumentException: Locator not found: header.search
+	at com.framework.pages.BasePage.lambda$getLocator$1(BasePage.java:52) ~[classes/:?]
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at com.framework.pages.BasePage.getLocator(BasePage.java:52) ~[classes/:?]
+	at com.framework.pages.BasePage.getElement(BasePage.java:73) ~[classes/:?]
+	at com.framework.sample.kpnfresh.pages.HomePage.search(HomePage.java:13) ~[test-classes/:?]
+	at com.framework.sample.kpnfresh.stepdefs.HomePageSteps.iSearchFor(HomePageSteps.java:25) ~[test-classes/:?]
+	at ?.I search for "web automation"(file:///D:/TestGenie/selenium-framework-core/src/test/resources/features/kpnfresh/homepage.feature:17) ~[?:?]
+21:00:21.696 [TestNG-tests-1] ERROR com.framework.listeners.TestListener - Test failed: runScenario
+21:00:21.696 [TestNG-tests-1] ERROR com.framework.listeners.TestListener - Failure reason: 
+java.lang.IllegalArgumentException: Locator not found: header.search
+	at com.framework.pages.BasePage.lambda$getLocator$1(BasePage.java:52) ~[classes/:?]
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at com.framework.pages.BasePage.getLocator(BasePage.java:52) ~[classes/:?]
+	at com.framework.pages.BasePage.getElement(BasePage.java:73) ~[classes/:?]
+	at com.framework.sample.kpnfresh.pages.HomePage.search(HomePage.java:13) ~[test-classes/:?]
+	at com.framework.sample.kpnfresh.stepdefs.HomePageSteps.iSearchFor(HomePageSteps.java:25) ~[test-classes/:?]
+	at ?.I search for "web automation"(file:///D:/TestGenie/selenium-framework-core/src/test/resources/features/kpnfresh/homepage.feature:17) ~[?:?]
+21:00:21.700 [TestNG-tests-1] INFO  com.framework.listeners.TestListener - Starting test: runScenario
+21:00:21.700 [TestNG-tests-1] INFO  com.framework.listeners.CucumberListener - Starting test: runScenario
+21:00:21.709 [TestNG-tests-1] INFO  com.framework.sample.kpnfresh.config.CucumberHooks - Starting scenario: Search for different topics
+21:00:21.735 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 138.0.3351.83 (resolved driver for Edge 138)
+21:00:21.760 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\sanja\.cache\selenium\msedgedriver\win64\138.0.3351.83\msedgedriver.exe
+21:00:25.608 [TestNG-tests-1] INFO  com.framework.sample.kpnfresh.stepdefs.HomePageSteps - Navigated to Google homepage
+21:00:25.615 [TestNG-tests-1] INFO  com.framework.sample.kpnfresh.config.CucumberHooks - Finished scenario: Search for different topics. Status: FAILED
+21:00:25.874 [TestNG-tests-1] ERROR com.framework.listeners.CucumberListener - Test failed: runScenario
+21:00:25.875 [TestNG-tests-1] ERROR com.framework.listeners.CucumberListener - Failure reason: 
+java.lang.IllegalArgumentException: Locator not found: header.search
+	at com.framework.pages.BasePage.lambda$getLocator$1(BasePage.java:52) ~[classes/:?]
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at com.framework.pages.BasePage.getLocator(BasePage.java:52) ~[classes/:?]
+	at com.framework.pages.BasePage.getElement(BasePage.java:73) ~[classes/:?]
+	at com.framework.sample.kpnfresh.pages.HomePage.search(HomePage.java:13) ~[test-classes/:?]
+	at com.framework.sample.kpnfresh.stepdefs.HomePageSteps.iSearchFor(HomePageSteps.java:25) ~[test-classes/:?]
+	at ?.I search for "cucumber bdd"(file:///D:/TestGenie/selenium-framework-core/src/test/resources/features/kpnfresh/homepage.feature:17) ~[?:?]
+21:00:25.877 [TestNG-tests-1] ERROR com.framework.listeners.TestListener - Test failed: runScenario
+21:00:25.877 [TestNG-tests-1] ERROR com.framework.listeners.TestListener - Failure reason: 
+java.lang.IllegalArgumentException: Locator not found: header.search
+	at com.framework.pages.BasePage.lambda$getLocator$1(BasePage.java:52) ~[classes/:?]
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at com.framework.pages.BasePage.getLocator(BasePage.java:52) ~[classes/:?]
+	at com.framework.pages.BasePage.getElement(BasePage.java:73) ~[classes/:?]
+	at com.framework.sample.kpnfresh.pages.HomePage.search(HomePage.java:13) ~[test-classes/:?]
+	at com.framework.sample.kpnfresh.stepdefs.HomePageSteps.iSearchFor(HomePageSteps.java:25) ~[test-classes/:?]
+	at ?.I search for "cucumber bdd"(file:///D:/TestGenie/selenium-framework-core/src/test/resources/features/kpnfresh/homepage.feature:17) ~[?:?]
+21:00:25.927 [TestNG-tests-1] INFO  com.framework.listeners.CucumberListener - Finished test suite: Edge Tests
+21:00:25.934 [TestNG-tests-1] INFO  com.framework.listeners.TestListener - Finished test suite: Edge Tests
+21:00:25.934 [TestNG-tests-1] INFO  com.framework.listeners.TestListener - Passed tests: 0
+21:00:25.934 [TestNG-tests-1] INFO  com.framework.listeners.TestListener - Failed tests: 4
+21:00:25.934 [TestNG-tests-1] INFO  com.framework.listeners.TestListener - Skipped tests: 0
+21:01:23.107 [TestNG-tests-1] INFO  com.framework.listeners.TestListener - Starting test suite: Edge Tests
+21:01:23.109 [TestNG-tests-1] INFO  com.framework.listeners.CucumberListener - Starting test suite: Edge Tests
+21:01:23.894 [TestNG-tests-1] INFO  com.framework.listeners.TestListener - Starting test: runScenario
+21:01:23.895 [TestNG-tests-1] INFO  com.framework.listeners.CucumberListener - Starting test: runScenario
+21:01:23.978 [TestNG-tests-1] INFO  com.framework.sample.kpnfresh.config.CucumberHooks - Starting scenario: Search for a topic
+21:01:24.531 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 138.0.3351.83 (resolved driver for Edge 138)
+21:01:24.568 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\sanja\.cache\selenium\msedgedriver\win64\138.0.3351.83\msedgedriver.exe
+21:01:27.646 [TestNG-tests-1] INFO  com.framework.sample.kpnfresh.stepdefs.HomePageSteps - Navigated to Google homepage
+21:01:27.669 [TestNG-tests-1] INFO  com.framework.sample.kpnfresh.config.CucumberHooks - Finished scenario: Search for a topic. Status: FAILED
+21:01:28.225 [TestNG-tests-1] ERROR com.framework.listeners.CucumberListener - Test failed: runScenario
+21:01:28.225 [TestNG-tests-1] ERROR com.framework.listeners.CucumberListener - Failure reason: 
+java.lang.IllegalArgumentException: Locator not found: header.search
+	at com.framework.pages.BasePage.lambda$getLocator$1(BasePage.java:52) ~[classes/:?]
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at com.framework.pages.BasePage.getLocator(BasePage.java:52) ~[classes/:?]
+	at com.framework.pages.BasePage.getElement(BasePage.java:73) ~[classes/:?]
+	at com.framework.sample.kpnfresh.pages.HomePage.search(HomePage.java:13) ~[test-classes/:?]
+	at com.framework.sample.kpnfresh.stepdefs.HomePageSteps.iSearchFor(HomePageSteps.java:25) ~[test-classes/:?]
+	at ?.I search for "selenium automation"(file:///D:/TestGenie/selenium-framework-core/src/test/resources/features/kpnfresh/homepage.feature:11) ~[?:?]
+21:01:28.239 [TestNG-tests-1] ERROR com.framework.listeners.TestListener - Test failed: runScenario
+21:01:28.239 [TestNG-tests-1] ERROR com.framework.listeners.TestListener - Failure reason: 
+java.lang.IllegalArgumentException: Locator not found: header.search
+	at com.framework.pages.BasePage.lambda$getLocator$1(BasePage.java:52) ~[classes/:?]
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at com.framework.pages.BasePage.getLocator(BasePage.java:52) ~[classes/:?]
+	at com.framework.pages.BasePage.getElement(BasePage.java:73) ~[classes/:?]
+	at com.framework.sample.kpnfresh.pages.HomePage.search(HomePage.java:13) ~[test-classes/:?]
+	at com.framework.sample.kpnfresh.stepdefs.HomePageSteps.iSearchFor(HomePageSteps.java:25) ~[test-classes/:?]
+	at ?.I search for "selenium automation"(file:///D:/TestGenie/selenium-framework-core/src/test/resources/features/kpnfresh/homepage.feature:11) ~[?:?]
+21:01:28.252 [TestNG-tests-1] INFO  com.framework.listeners.TestListener - Starting test: runScenario
+21:01:28.252 [TestNG-tests-1] INFO  com.framework.listeners.CucumberListener - Starting test: runScenario
+21:01:28.267 [TestNG-tests-1] INFO  com.framework.sample.kpnfresh.config.CucumberHooks - Starting scenario: Search for different topics
+21:01:28.307 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 138.0.3351.83 (resolved driver for Edge 138)
+21:01:28.332 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\sanja\.cache\selenium\msedgedriver\win64\138.0.3351.83\msedgedriver.exe
+21:01:31.478 [TestNG-tests-1] INFO  com.framework.sample.kpnfresh.stepdefs.HomePageSteps - Navigated to Google homepage
+21:01:31.486 [TestNG-tests-1] INFO  com.framework.sample.kpnfresh.config.CucumberHooks - Finished scenario: Search for different topics. Status: FAILED
+21:01:32.027 [TestNG-tests-1] ERROR com.framework.listeners.CucumberListener - Test failed: runScenario
+21:01:32.027 [TestNG-tests-1] ERROR com.framework.listeners.CucumberListener - Failure reason: 
+java.lang.IllegalArgumentException: Locator not found: header.search
+	at com.framework.pages.BasePage.lambda$getLocator$1(BasePage.java:52) ~[classes/:?]
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at com.framework.pages.BasePage.getLocator(BasePage.java:52) ~[classes/:?]
+	at com.framework.pages.BasePage.getElement(BasePage.java:73) ~[classes/:?]
+	at com.framework.sample.kpnfresh.pages.HomePage.search(HomePage.java:13) ~[test-classes/:?]
+	at com.framework.sample.kpnfresh.stepdefs.HomePageSteps.iSearchFor(HomePageSteps.java:25) ~[test-classes/:?]
+	at ?.I search for "java testing"(file:///D:/TestGenie/selenium-framework-core/src/test/resources/features/kpnfresh/homepage.feature:17) ~[?:?]
+21:01:32.031 [TestNG-tests-1] ERROR com.framework.listeners.TestListener - Test failed: runScenario
+21:01:32.031 [TestNG-tests-1] ERROR com.framework.listeners.TestListener - Failure reason: 
+java.lang.IllegalArgumentException: Locator not found: header.search
+	at com.framework.pages.BasePage.lambda$getLocator$1(BasePage.java:52) ~[classes/:?]
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at com.framework.pages.BasePage.getLocator(BasePage.java:52) ~[classes/:?]
+	at com.framework.pages.BasePage.getElement(BasePage.java:73) ~[classes/:?]
+	at com.framework.sample.kpnfresh.pages.HomePage.search(HomePage.java:13) ~[test-classes/:?]
+	at com.framework.sample.kpnfresh.stepdefs.HomePageSteps.iSearchFor(HomePageSteps.java:25) ~[test-classes/:?]
+	at ?.I search for "java testing"(file:///D:/TestGenie/selenium-framework-core/src/test/resources/features/kpnfresh/homepage.feature:17) ~[?:?]
+21:01:32.033 [TestNG-tests-1] INFO  com.framework.listeners.TestListener - Starting test: runScenario
+21:01:32.033 [TestNG-tests-1] INFO  com.framework.listeners.CucumberListener - Starting test: runScenario
+21:01:32.037 [TestNG-tests-1] INFO  com.framework.sample.kpnfresh.config.CucumberHooks - Starting scenario: Search for different topics
+21:01:32.052 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 138.0.3351.83 (resolved driver for Edge 138)
+21:01:32.062 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\sanja\.cache\selenium\msedgedriver\win64\138.0.3351.83\msedgedriver.exe
+21:01:34.325 [TestNG-tests-1] INFO  com.framework.sample.kpnfresh.stepdefs.HomePageSteps - Navigated to Google homepage
+21:01:34.336 [TestNG-tests-1] INFO  com.framework.sample.kpnfresh.config.CucumberHooks - Finished scenario: Search for different topics. Status: FAILED
+21:01:34.701 [TestNG-tests-1] ERROR com.framework.listeners.CucumberListener - Test failed: runScenario
+21:01:34.703 [TestNG-tests-1] ERROR com.framework.listeners.CucumberListener - Failure reason: 
+java.lang.IllegalArgumentException: Locator not found: header.search
+	at com.framework.pages.BasePage.lambda$getLocator$1(BasePage.java:52) ~[classes/:?]
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at com.framework.pages.BasePage.getLocator(BasePage.java:52) ~[classes/:?]
+	at com.framework.pages.BasePage.getElement(BasePage.java:73) ~[classes/:?]
+	at com.framework.sample.kpnfresh.pages.HomePage.search(HomePage.java:13) ~[test-classes/:?]
+	at com.framework.sample.kpnfresh.stepdefs.HomePageSteps.iSearchFor(HomePageSteps.java:25) ~[test-classes/:?]
+	at ?.I search for "web automation"(file:///D:/TestGenie/selenium-framework-core/src/test/resources/features/kpnfresh/homepage.feature:17) ~[?:?]
+21:01:34.705 [TestNG-tests-1] ERROR com.framework.listeners.TestListener - Test failed: runScenario
+21:01:34.705 [TestNG-tests-1] ERROR com.framework.listeners.TestListener - Failure reason: 
+java.lang.IllegalArgumentException: Locator not found: header.search
+	at com.framework.pages.BasePage.lambda$getLocator$1(BasePage.java:52) ~[classes/:?]
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at com.framework.pages.BasePage.getLocator(BasePage.java:52) ~[classes/:?]
+	at com.framework.pages.BasePage.getElement(BasePage.java:73) ~[classes/:?]
+	at com.framework.sample.kpnfresh.pages.HomePage.search(HomePage.java:13) ~[test-classes/:?]
+	at com.framework.sample.kpnfresh.stepdefs.HomePageSteps.iSearchFor(HomePageSteps.java:25) ~[test-classes/:?]
+	at ?.I search for "web automation"(file:///D:/TestGenie/selenium-framework-core/src/test/resources/features/kpnfresh/homepage.feature:17) ~[?:?]
+21:01:34.715 [TestNG-tests-1] INFO  com.framework.listeners.TestListener - Starting test: runScenario
+21:01:34.718 [TestNG-tests-1] INFO  com.framework.listeners.CucumberListener - Starting test: runScenario
+21:01:34.725 [TestNG-tests-1] INFO  com.framework.sample.kpnfresh.config.CucumberHooks - Starting scenario: Search for different topics
+21:01:34.756 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 138.0.3351.83 (resolved driver for Edge 138)
+21:01:34.784 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\sanja\.cache\selenium\msedgedriver\win64\138.0.3351.83\msedgedriver.exe
+21:01:37.059 [TestNG-tests-1] INFO  com.framework.sample.kpnfresh.stepdefs.HomePageSteps - Navigated to Google homepage
+21:01:37.065 [TestNG-tests-1] INFO  com.framework.sample.kpnfresh.config.CucumberHooks - Finished scenario: Search for different topics. Status: FAILED
+21:01:37.456 [TestNG-tests-1] ERROR com.framework.listeners.CucumberListener - Test failed: runScenario
+21:01:37.456 [TestNG-tests-1] ERROR com.framework.listeners.CucumberListener - Failure reason: 
+java.lang.IllegalArgumentException: Locator not found: header.search
+	at com.framework.pages.BasePage.lambda$getLocator$1(BasePage.java:52) ~[classes/:?]
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at com.framework.pages.BasePage.getLocator(BasePage.java:52) ~[classes/:?]
+	at com.framework.pages.BasePage.getElement(BasePage.java:73) ~[classes/:?]
+	at com.framework.sample.kpnfresh.pages.HomePage.search(HomePage.java:13) ~[test-classes/:?]
+	at com.framework.sample.kpnfresh.stepdefs.HomePageSteps.iSearchFor(HomePageSteps.java:25) ~[test-classes/:?]
+	at ?.I search for "cucumber bdd"(file:///D:/TestGenie/selenium-framework-core/src/test/resources/features/kpnfresh/homepage.feature:17) ~[?:?]
+21:01:37.458 [TestNG-tests-1] ERROR com.framework.listeners.TestListener - Test failed: runScenario
+21:01:37.458 [TestNG-tests-1] ERROR com.framework.listeners.TestListener - Failure reason: 
+java.lang.IllegalArgumentException: Locator not found: header.search
+	at com.framework.pages.BasePage.lambda$getLocator$1(BasePage.java:52) ~[classes/:?]
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at com.framework.pages.BasePage.getLocator(BasePage.java:52) ~[classes/:?]
+	at com.framework.pages.BasePage.getElement(BasePage.java:73) ~[classes/:?]
+	at com.framework.sample.kpnfresh.pages.HomePage.search(HomePage.java:13) ~[test-classes/:?]
+	at com.framework.sample.kpnfresh.stepdefs.HomePageSteps.iSearchFor(HomePageSteps.java:25) ~[test-classes/:?]
+	at ?.I search for "cucumber bdd"(file:///D:/TestGenie/selenium-framework-core/src/test/resources/features/kpnfresh/homepage.feature:17) ~[?:?]
+21:01:37.520 [TestNG-tests-1] INFO  com.framework.listeners.CucumberListener - Finished test suite: Edge Tests
+21:01:37.520 [TestNG-tests-1] INFO  com.framework.listeners.TestListener - Finished test suite: Edge Tests
+21:01:37.520 [TestNG-tests-1] INFO  com.framework.listeners.TestListener - Passed tests: 0
+21:01:37.520 [TestNG-tests-1] INFO  com.framework.listeners.TestListener - Failed tests: 4
+21:01:37.520 [TestNG-tests-1] INFO  com.framework.listeners.TestListener - Skipped tests: 0
+21:01:51.039 [TestNG-tests-1] INFO  com.framework.listeners.TestListener - Starting test suite: Edge Tests
+21:01:51.046 [TestNG-tests-1] INFO  com.framework.listeners.CucumberListener - Starting test suite: Edge Tests
+21:01:51.818 [TestNG-tests-1] INFO  com.framework.listeners.TestListener - Starting test: runScenario
+21:01:51.824 [TestNG-tests-1] INFO  com.framework.listeners.CucumberListener - Starting test: runScenario
+21:01:51.947 [TestNG-tests-1] INFO  com.framework.sample.kpnfresh.config.CucumberHooks - Starting scenario: Search for a topic
+21:01:52.476 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 138.0.3351.83 (resolved driver for Edge 138)
+21:01:52.516 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\sanja\.cache\selenium\msedgedriver\win64\138.0.3351.83\msedgedriver.exe
+21:01:55.442 [TestNG-tests-1] INFO  com.framework.sample.kpnfresh.stepdefs.HomePageSteps - Navigated to Google homepage
+21:01:55.466 [TestNG-tests-1] INFO  com.framework.sample.kpnfresh.config.CucumberHooks - Finished scenario: Search for a topic. Status: FAILED
+21:01:56.189 [TestNG-tests-1] ERROR com.framework.listeners.CucumberListener - Test failed: runScenario
+21:01:56.189 [TestNG-tests-1] ERROR com.framework.listeners.CucumberListener - Failure reason: 
+java.lang.IllegalArgumentException: Locator not found: header.search
+	at com.framework.pages.BasePage.lambda$getLocator$1(BasePage.java:52) ~[classes/:?]
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at com.framework.pages.BasePage.getLocator(BasePage.java:52) ~[classes/:?]
+	at com.framework.pages.BasePage.getElement(BasePage.java:73) ~[classes/:?]
+	at com.framework.sample.kpnfresh.pages.HomePage.search(HomePage.java:13) ~[test-classes/:?]
+	at com.framework.sample.kpnfresh.stepdefs.HomePageSteps.iSearchFor(HomePageSteps.java:25) ~[test-classes/:?]
+	at ?.I search for "selenium automation"(file:///D:/TestGenie/selenium-framework-core/src/test/resources/features/kpnfresh/homepage.feature:11) ~[?:?]
+21:01:56.203 [TestNG-tests-1] ERROR com.framework.listeners.TestListener - Test failed: runScenario
+21:01:56.203 [TestNG-tests-1] ERROR com.framework.listeners.TestListener - Failure reason: 
+java.lang.IllegalArgumentException: Locator not found: header.search
+	at com.framework.pages.BasePage.lambda$getLocator$1(BasePage.java:52) ~[classes/:?]
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at com.framework.pages.BasePage.getLocator(BasePage.java:52) ~[classes/:?]
+	at com.framework.pages.BasePage.getElement(BasePage.java:73) ~[classes/:?]
+	at com.framework.sample.kpnfresh.pages.HomePage.search(HomePage.java:13) ~[test-classes/:?]
+	at com.framework.sample.kpnfresh.stepdefs.HomePageSteps.iSearchFor(HomePageSteps.java:25) ~[test-classes/:?]
+	at ?.I search for "selenium automation"(file:///D:/TestGenie/selenium-framework-core/src/test/resources/features/kpnfresh/homepage.feature:11) ~[?:?]
+21:01:56.213 [TestNG-tests-1] INFO  com.framework.listeners.TestListener - Starting test: runScenario
+21:01:56.213 [TestNG-tests-1] INFO  com.framework.listeners.CucumberListener - Starting test: runScenario
+21:01:56.234 [TestNG-tests-1] INFO  com.framework.sample.kpnfresh.config.CucumberHooks - Starting scenario: Search for different topics
+21:01:56.275 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 138.0.3351.83 (resolved driver for Edge 138)
+21:01:56.297 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\sanja\.cache\selenium\msedgedriver\win64\138.0.3351.83\msedgedriver.exe
+21:01:58.418 [TestNG-tests-1] INFO  com.framework.sample.kpnfresh.stepdefs.HomePageSteps - Navigated to Google homepage
+21:01:58.421 [TestNG-tests-1] INFO  com.framework.sample.kpnfresh.config.CucumberHooks - Finished scenario: Search for different topics. Status: FAILED
+21:01:58.948 [TestNG-tests-1] ERROR com.framework.listeners.CucumberListener - Test failed: runScenario
+21:01:58.948 [TestNG-tests-1] ERROR com.framework.listeners.CucumberListener - Failure reason: 
+java.lang.IllegalArgumentException: Locator not found: header.search
+	at com.framework.pages.BasePage.lambda$getLocator$1(BasePage.java:52) ~[classes/:?]
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at com.framework.pages.BasePage.getLocator(BasePage.java:52) ~[classes/:?]
+	at com.framework.pages.BasePage.getElement(BasePage.java:73) ~[classes/:?]
+	at com.framework.sample.kpnfresh.pages.HomePage.search(HomePage.java:13) ~[test-classes/:?]
+	at com.framework.sample.kpnfresh.stepdefs.HomePageSteps.iSearchFor(HomePageSteps.java:25) ~[test-classes/:?]
+	at ?.I search for "java testing"(file:///D:/TestGenie/selenium-framework-core/src/test/resources/features/kpnfresh/homepage.feature:17) ~[?:?]
+21:01:58.948 [TestNG-tests-1] ERROR com.framework.listeners.TestListener - Test failed: runScenario
+21:01:58.953 [TestNG-tests-1] ERROR com.framework.listeners.TestListener - Failure reason: 
+java.lang.IllegalArgumentException: Locator not found: header.search
+	at com.framework.pages.BasePage.lambda$getLocator$1(BasePage.java:52) ~[classes/:?]
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at com.framework.pages.BasePage.getLocator(BasePage.java:52) ~[classes/:?]
+	at com.framework.pages.BasePage.getElement(BasePage.java:73) ~[classes/:?]
+	at com.framework.sample.kpnfresh.pages.HomePage.search(HomePage.java:13) ~[test-classes/:?]
+	at com.framework.sample.kpnfresh.stepdefs.HomePageSteps.iSearchFor(HomePageSteps.java:25) ~[test-classes/:?]
+	at ?.I search for "java testing"(file:///D:/TestGenie/selenium-framework-core/src/test/resources/features/kpnfresh/homepage.feature:17) ~[?:?]
+21:01:58.957 [TestNG-tests-1] INFO  com.framework.listeners.TestListener - Starting test: runScenario
+21:01:58.957 [TestNG-tests-1] INFO  com.framework.listeners.CucumberListener - Starting test: runScenario
+21:01:58.968 [TestNG-tests-1] INFO  com.framework.sample.kpnfresh.config.CucumberHooks - Starting scenario: Search for different topics
+21:01:58.991 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 138.0.3351.83 (resolved driver for Edge 138)
+21:01:59.005 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\sanja\.cache\selenium\msedgedriver\win64\138.0.3351.83\msedgedriver.exe
+21:02:01.021 [TestNG-tests-1] INFO  com.framework.sample.kpnfresh.stepdefs.HomePageSteps - Navigated to Google homepage
+21:02:01.033 [TestNG-tests-1] INFO  com.framework.sample.kpnfresh.config.CucumberHooks - Finished scenario: Search for different topics. Status: FAILED
+21:02:01.332 [TestNG-tests-1] ERROR com.framework.listeners.CucumberListener - Test failed: runScenario
+21:02:01.332 [TestNG-tests-1] ERROR com.framework.listeners.CucumberListener - Failure reason: 
+java.lang.IllegalArgumentException: Locator not found: header.search
+	at com.framework.pages.BasePage.lambda$getLocator$1(BasePage.java:52) ~[classes/:?]
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at com.framework.pages.BasePage.getLocator(BasePage.java:52) ~[classes/:?]
+	at com.framework.pages.BasePage.getElement(BasePage.java:73) ~[classes/:?]
+	at com.framework.sample.kpnfresh.pages.HomePage.search(HomePage.java:13) ~[test-classes/:?]
+	at com.framework.sample.kpnfresh.stepdefs.HomePageSteps.iSearchFor(HomePageSteps.java:25) ~[test-classes/:?]
+	at ?.I search for "web automation"(file:///D:/TestGenie/selenium-framework-core/src/test/resources/features/kpnfresh/homepage.feature:17) ~[?:?]
+21:02:01.336 [TestNG-tests-1] ERROR com.framework.listeners.TestListener - Test failed: runScenario
+21:02:01.336 [TestNG-tests-1] ERROR com.framework.listeners.TestListener - Failure reason: 
+java.lang.IllegalArgumentException: Locator not found: header.search
+	at com.framework.pages.BasePage.lambda$getLocator$1(BasePage.java:52) ~[classes/:?]
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at com.framework.pages.BasePage.getLocator(BasePage.java:52) ~[classes/:?]
+	at com.framework.pages.BasePage.getElement(BasePage.java:73) ~[classes/:?]
+	at com.framework.sample.kpnfresh.pages.HomePage.search(HomePage.java:13) ~[test-classes/:?]
+	at com.framework.sample.kpnfresh.stepdefs.HomePageSteps.iSearchFor(HomePageSteps.java:25) ~[test-classes/:?]
+	at ?.I search for "web automation"(file:///D:/TestGenie/selenium-framework-core/src/test/resources/features/kpnfresh/homepage.feature:17) ~[?:?]
+21:02:01.338 [TestNG-tests-1] INFO  com.framework.listeners.TestListener - Starting test: runScenario
+21:02:01.338 [TestNG-tests-1] INFO  com.framework.listeners.CucumberListener - Starting test: runScenario
+21:02:01.346 [TestNG-tests-1] INFO  com.framework.sample.kpnfresh.config.CucumberHooks - Starting scenario: Search for different topics
+21:02:01.368 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 138.0.3351.83 (resolved driver for Edge 138)
+21:02:01.380 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\sanja\.cache\selenium\msedgedriver\win64\138.0.3351.83\msedgedriver.exe
+21:02:04.053 [TestNG-tests-1] INFO  com.framework.sample.kpnfresh.stepdefs.HomePageSteps - Navigated to Google homepage
+21:02:04.058 [TestNG-tests-1] INFO  com.framework.sample.kpnfresh.config.CucumberHooks - Finished scenario: Search for different topics. Status: FAILED
+21:02:04.331 [TestNG-tests-1] ERROR com.framework.listeners.CucumberListener - Test failed: runScenario
+21:02:04.331 [TestNG-tests-1] ERROR com.framework.listeners.CucumberListener - Failure reason: 
+java.lang.IllegalArgumentException: Locator not found: header.search
+	at com.framework.pages.BasePage.lambda$getLocator$1(BasePage.java:52) ~[classes/:?]
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at com.framework.pages.BasePage.getLocator(BasePage.java:52) ~[classes/:?]
+	at com.framework.pages.BasePage.getElement(BasePage.java:73) ~[classes/:?]
+	at com.framework.sample.kpnfresh.pages.HomePage.search(HomePage.java:13) ~[test-classes/:?]
+	at com.framework.sample.kpnfresh.stepdefs.HomePageSteps.iSearchFor(HomePageSteps.java:25) ~[test-classes/:?]
+	at ?.I search for "cucumber bdd"(file:///D:/TestGenie/selenium-framework-core/src/test/resources/features/kpnfresh/homepage.feature:17) ~[?:?]
+21:02:04.332 [TestNG-tests-1] ERROR com.framework.listeners.TestListener - Test failed: runScenario
+21:02:04.332 [TestNG-tests-1] ERROR com.framework.listeners.TestListener - Failure reason: 
+java.lang.IllegalArgumentException: Locator not found: header.search
+	at com.framework.pages.BasePage.lambda$getLocator$1(BasePage.java:52) ~[classes/:?]
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at com.framework.pages.BasePage.getLocator(BasePage.java:52) ~[classes/:?]
+	at com.framework.pages.BasePage.getElement(BasePage.java:73) ~[classes/:?]
+	at com.framework.sample.kpnfresh.pages.HomePage.search(HomePage.java:13) ~[test-classes/:?]
+	at com.framework.sample.kpnfresh.stepdefs.HomePageSteps.iSearchFor(HomePageSteps.java:25) ~[test-classes/:?]
+	at ?.I search for "cucumber bdd"(file:///D:/TestGenie/selenium-framework-core/src/test/resources/features/kpnfresh/homepage.feature:17) ~[?:?]
+21:02:04.386 [TestNG-tests-1] INFO  com.framework.listeners.CucumberListener - Finished test suite: Edge Tests
+21:02:04.386 [TestNG-tests-1] INFO  com.framework.listeners.TestListener - Finished test suite: Edge Tests
+21:02:04.386 [TestNG-tests-1] INFO  com.framework.listeners.TestListener - Passed tests: 0
+21:02:04.392 [TestNG-tests-1] INFO  com.framework.listeners.TestListener - Failed tests: 4
+21:02:04.394 [TestNG-tests-1] INFO  com.framework.listeners.TestListener - Skipped tests: 0

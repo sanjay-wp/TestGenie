@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="0" failed="4" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-13T21:01:51 IST" name="KPN Fresh Test Suite" finished-at="2025-07-13T21:02:04 IST" duration-ms="13370">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.framework.sample.kpnfresh.tests.TestRunner@6e6d5d29]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-07-13T21:01:51 IST" name="Edge Tests" finished-at="2025-07-13T21:02:04 IST" duration-ms="13370">
+      <class name="com.framework.sample.kpnfresh.tests.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.framework.sample.kpnfresh.tests.TestRunner@6e6d5d29]" started-at="2025-07-13T21:01:51 IST" name="setUpClass" finished-at="2025-07-13T21:01:51 IST" duration-ms="731" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@56a4479a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.framework.sample.kpnfresh.tests.TestRunner@6e6d5d29]" started-at="2025-07-13T21:01:51 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-13T21:01:56 IST" duration-ms="4368" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search for a topic"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Google Search Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Locator not found: header.search]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Locator not found: header.search
+at com.framework.pages.BasePage.lambda$getLocator$1(BasePage.java:52)
+at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+at com.framework.pages.BasePage.getLocator(BasePage.java:52)
+at com.framework.pages.BasePage.getElement(BasePage.java:73)
+at com.framework.sample.kpnfresh.pages.HomePage.search(HomePage.java:13)
+at com.framework.sample.kpnfresh.stepdefs.HomePageSteps.iSearchFor(HomePageSteps.java:25)
+at ✽.I search for "selenium automation"(file:///D:/TestGenie/selenium-framework-core/src/test/resources/features/kpnfresh/homepage.feature:11)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.framework.sample.kpnfresh.tests.TestRunner@6e6d5d29]" started-at="2025-07-13T21:01:56 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-13T21:01:58 IST" duration-ms="2737" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search for different topics"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Google Search Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Locator not found: header.search]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Locator not found: header.search
+at com.framework.pages.BasePage.lambda$getLocator$1(BasePage.java:52)
+at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+at com.framework.pages.BasePage.getLocator(BasePage.java:52)
+at com.framework.pages.BasePage.getElement(BasePage.java:73)
+at com.framework.sample.kpnfresh.pages.HomePage.search(HomePage.java:13)
+at com.framework.sample.kpnfresh.stepdefs.HomePageSteps.iSearchFor(HomePageSteps.java:25)
+at ✽.I search for "java testing"(file:///D:/TestGenie/selenium-framework-core/src/test/resources/features/kpnfresh/homepage.feature:17)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.framework.sample.kpnfresh.tests.TestRunner@6e6d5d29]" started-at="2025-07-13T21:01:58 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-13T21:02:01 IST" duration-ms="2376" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search for different topics"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Google Search Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Locator not found: header.search]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Locator not found: header.search
+at com.framework.pages.BasePage.lambda$getLocator$1(BasePage.java:52)
+at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+at com.framework.pages.BasePage.getLocator(BasePage.java:52)
+at com.framework.pages.BasePage.getElement(BasePage.java:73)
+at com.framework.sample.kpnfresh.pages.HomePage.search(HomePage.java:13)
+at com.framework.sample.kpnfresh.stepdefs.HomePageSteps.iSearchFor(HomePageSteps.java:25)
+at ✽.I search for "web automation"(file:///D:/TestGenie/selenium-framework-core/src/test/resources/features/kpnfresh/homepage.feature:17)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.framework.sample.kpnfresh.tests.TestRunner@6e6d5d29]" started-at="2025-07-13T21:02:01 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-13T21:02:04 IST" duration-ms="2993" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search for different topics"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Google Search Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Locator not found: header.search]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Locator not found: header.search
+at com.framework.pages.BasePage.lambda$getLocator$1(BasePage.java:52)
+at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+at com.framework.pages.BasePage.getLocator(BasePage.java:52)
+at com.framework.pages.BasePage.getElement(BasePage.java:73)
+at com.framework.sample.kpnfresh.pages.HomePage.search(HomePage.java:13)
+at com.framework.sample.kpnfresh.stepdefs.HomePageSteps.iSearchFor(HomePageSteps.java:25)
+at ✽.I search for "cucumber bdd"(file:///D:/TestGenie/selenium-framework-core/src/test/resources/features/kpnfresh/homepage.feature:17)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.framework.sample.kpnfresh.tests.TestRunner@6e6d5d29]" started-at="2025-07-13T21:02:04 IST" name="tearDownClass" finished-at="2025-07-13T21:02:04 IST" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.framework.sample.kpnfresh.tests.TestRunner -->
+    </test> <!-- Edge Tests -->
+  </suite> <!-- KPN Fresh Test Suite -->
+</testng-results>

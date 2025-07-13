@@ -1,0 +1,57 @@
+# Google Search elements
+search:
+  input:
+    type: name
+    value: "q"
+  button:
+    type: name
+    value: "btnK"
+  results:
+    type: id
+    value: "search"
+  result:
+    titles:
+      type: css
+      value: "h3"
+
+# Header elements
+header:
+  logo:
+    type: css
+    value: ".logo"
+  search:
+    type: css
+    value: "#search"
+  cart:
+    type: css
+    value: ".minicart-wrapper"
+  menu:
+    type: css
+    value: ".nav-toggle"
+
+# Navigation elements
+nav:
+  categories:
+    type: css
+    value: ".categories-menu"
+  category_link:
+    type: xpath
+    value: "//nav//a[contains(text(), '{0}')]"
+
+# Product elements
+product:
+  grid:
+    type: css
+    value: ".products-grid"
+  name:
+    type: css
+    value: ".product-item-name"
+
+# Footer elements
+footer:
+  newsletter:
+    type: css
+    value: "#newsletter"
+  subscribe:
+    type: css
+    value: "#newsletter-validate-detail button[type='submit']" 
