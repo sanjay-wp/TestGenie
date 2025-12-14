@@ -16,8 +16,8 @@ public class HomePageSteps {
     @Given("I am on the KPN Fresh home page")
     public void iAmOnTheHomePage() {
         homePage = new HomePage();
-        DriverManager.getDriver().get("https://www.google.com");
-        log.info("Navigated to Google homepage");
+        DriverManager.getDriver().get("https://www.kpnfresh.com/");
+        log.info("Navigated to KPN Farm Fresh homepage");
     }
     
     @When("I search for {string}")

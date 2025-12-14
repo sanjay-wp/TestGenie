@@ -11,7 +11,7 @@ browser:
         - "--start-maximized"
         - "--disable-notifications"
       preferences:
-        download.default_directory: D:\\TestGenie\\selenium-framework-core/downloads
+        download.default_directory: d:\\TestGenie/downloads
     firefox:
       arguments:
         - "--width=1920"
@@ -28,11 +28,11 @@ framework:
     interval_seconds: 1
   screenshot:
     on_failure: true
-    directory: D:\\TestGenie\\selenium-framework-core/test-output/screenshots
+    directory: d:\\TestGenie/test-output/screenshots
   reporting:
     generate_html: true
     generate_pdf: false
-    directory: D:\\TestGenie\\selenium-framework-core/test-output/reports
+    directory: d:\\TestGenie/test-output/reports
 
 # Default timeouts (in seconds)
 timeouts:
@@ -57,7 +57,7 @@ logging:
   level: INFO
   file:
     enabled: true
-    path: D:\\TestGenie\\selenium-framework-core/logs/test.log
+    path: d:\\TestGenie/logs/test.log
   console:
     enabled: true
     pattern: "%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n"

@@ -1,13 +1,21 @@
 # KPN Fresh website locators
 
+
+# Routes
+routes:
+  home:
+    type: url
+    value: "https://www.kpnfresh.com/search"
+
+
 # Header elements
 header:
   logo:
-    type: css
-    value: ".logo img"
+    type: xpath
+    value: "//header[@class='h-16 container flex gap-10']/div/a/img"
   search:
-    type: css
-    value: "#search"
+    type: xpath
+    value: "//input[@placeholder='Search for goodness...']"
   cart:
     type: css
     value: ".minicart-wrapper"
